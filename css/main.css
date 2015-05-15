@@ -1,0 +1,125 @@
+/*******LINKS******/
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:visited {
+  color: grey;
+}
+
+nav a.selected, nav a:hover {
+  color: #e66665;
+}
+
+/********HEADER*********/
+IMG.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+#logo {
+  text-align: center;
+  vertical-align: middle
+  margin: 0;
+}
+
+header {
+  border-bottom: 1px solid #EAEAEA !important;
+}
+
+/*********NAVIGATION************/
+ul {
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-weight: 100;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: grey;
+}
+
+li {
+  display: inline;
+  float: center;
+
+}
+li:after {
+  content:'\2219';
+}
+
+li:last-child:after{
+  content:none;
+}
+
+
+nav {
+  text-align: center;
+  border-bottom: 3px solid #EAEAEA !important;
+  padding: 15px;
+
+}
+
+nav li a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+
+/*********BODY**********/
+section {
+  padding: 15px 1px 15px;
+  border-bottom: 1px solid #EAEAEA !important;
+}
+
+p {
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-weight: 110;
+  margin: 0;
+  padding: 50 0 50px;
+  line-height: 150%;
+  color: grey;
+}
+
+#blog-post {
+  text-align: justify;
+  padding: 20px 0 20px;
+}
+
+/********HEADERS*********/
+
+h2 {
+  text-transform: uppercase;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-weight: 300;
+  color: cadetblue;
+  text-align: center;
+}
+h3 {
+  text-transform: uppercase;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-weight: 300;
+  color: cadetblue;
+  text-align: center;
+}
+ /*******FOOTER*******/
+footer {
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  font-weight: 100;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  color: grey;
+}
